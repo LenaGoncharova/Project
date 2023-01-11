@@ -19,14 +19,16 @@ string[] SecondArray(string[] arr)
     }
     return newarr;
 }
-void PrintArray(string[] arr)
-{
-    Console.Write("[");
-    for (int i = 0; i < arr.Length; i++)
-    {
-        Console.Write($"{arr[i] } " );
-    }
-    Console.WriteLine("]");
-}
+// void PrintArray(string[] arr)
+// {
+//     Console.Write("[");
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//         Console.Write($"{arr[i] } " );
+//     }
+//     Console.WriteLine("]");
+// }
  string[]secondArray= SecondArray(massiv );
-PrintArray(secondArray);
+// PrintArray(secondArray);
+ Console.WriteLine("["+ string.Join(" ", massiv)+ "]");
+  Console.WriteLine("["+ string.Join(" ", secondArray)+ "]");
